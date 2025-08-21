@@ -3,7 +3,8 @@
 Welcome to the Data Warehouse and Analytics Project repository! 🚀
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
-<img width="829" height="551" alt="Data Architecture (draw io)" src="https://github.com/user-attachments/assets/8c9d0678-2d51-4f32-a6f6-9bcb3a4eb756" />
+<img width="841" height="506" alt="Data Architecture (draw io)" src="https://github.com/user-attachments/assets/28a5cda0-a31a-4397-be1c-a38ea1337654" />
+
 
 1.	**Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 2.	**Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
