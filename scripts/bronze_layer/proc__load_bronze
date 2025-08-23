@@ -162,7 +162,7 @@ BEGIN
            STEP D: Optional Validation (debug mode only)
            ----------------------------------------------------------
            - Run only if @debug = 1.
-           - Helps identify invalid IDs, costs, or dates.
+           - Helps identify invalid costs, or dates.
            ========================================================== */      
         IF @debug = 1
         BEGIN
