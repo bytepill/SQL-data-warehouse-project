@@ -44,6 +44,8 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 •	Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
+## 📂 Repository Structure
+```
 data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
@@ -64,5 +66,6 @@ data-warehouse-project/
 ├── tests/                              # Test scripts and quality files
 │
 ├── README.md                           # Project overview and instructions
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------
+└── LICENSE                             # License information for the repository
+```
+---
