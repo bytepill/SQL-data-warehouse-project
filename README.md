@@ -52,17 +52,34 @@ data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│   ├── etl.drawio                      # ETL techniques and methods diagram
+│   ├── data_architecture.drawio        # Project architecture diagram
+│   ├── data_catalog.md                 # Dataset catalog with field descriptions and metadata
+│   ├── data_flow.drawio                # Data flow diagram
+│   ├── data_models.drawio              # Star schema data models
+│   ├── naming-conventions.md           # Naming conventions for tables, columns, and files
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
+│   ├── bronze/                         # Raw data extraction and load scripts
+│   ├── silver/                         # Data cleaning and transformation scripts
+│   ├── gold/                           # Analytical data model creation scripts
+│
+├── exploratory-data-analysis/          # SQL scripts for EDA
+│   ├── database_exploration.sql
+│   ├── date_range_exploration.sql
+│   ├── dimensions_exploration.sql
+│   ├── magnitude_analysis.sql
+│   ├── measures_exploration.sql
+│   ├── ranking_analysis.sql
+│
+├── advanced-data-analysis/            # SQL scripts for advanced analytics
+│   ├── change_over_time_analysis.sql
+│   ├── cumulative_analysis.sql
+│   ├── data_segmentation_analysis.sql
+│   ├── part-to-whole_analysis.sql
+│   ├── performance_analysis.sql
+│   ├── report_customers.sql
+│   ├── report_products.sql
 │
 ├── tests/                              # Test scripts and quality files
 │
