@@ -45,6 +45,35 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 •	Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+In the **EDA phase**, we analyze raw and transformed data to understand its structure, quality, and underlying patterns.  
+Key tasks include:
+- Examining data distributions and statistics
+- Exploring date ranges, dimensions, and measures
+- Identifying data quality issues
+- Ranking and magnitude analysis
+
+These steps help ensure the data is consistent and ready for deeper analytics.
+
+---
+
+## 📈 Advanced Data Analytics
+
+Advanced analytics provides actionable business insights beyond basic reporting.  
+Implemented advanced analyses include:
+- Change-over-time analysis to detect trends  
+- Cumulative and part-to-whole analysis to monitor aggregate growth  
+- Data segmentation to identify customer and product clusters  
+- Performance analysis for evaluating KPIs  
+- Custom reports for customers and product performance  
+
+These analyses support data-driven decision-making and strategic business actions.
+
+---
+
 ## 📂 Repository Structure
 ```
 data-warehouse-project/
